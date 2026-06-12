@@ -33,7 +33,6 @@ int main() {
     sf::Clock clock;
 
     while (window.isOpen()) {
-        // SFML 3.0 fix: pollEvent now returns a std::optional<sf::Event>
         while (const std::optional<sf::Event> event = window.pollEvent()) {
             // Check if the event is a Close event
             if (event->is<sf::Event::Closed>()) {
