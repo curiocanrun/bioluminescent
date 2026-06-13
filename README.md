@@ -1,6 +1,6 @@
 ### Build and Run
 
-Ensure  Microsoft's `vcpkg` package manager is installed and added `sfml` through it:
+Ensure  Microsoft's `vcpkg` package manager is installed and `sfml` is added through it:
 
 ```
 # 1. Configure the build directory with the vcpkg toolchain
